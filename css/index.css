@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container-index{
+    background-color: #485665;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-projetos{
+    background-color: #485665;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projeto{
+    height: 90vh;
+    width: 90vw;
+    border: black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+    
+
+}
+
+.titulo-projeto{
+   width: 90vw;
+   height: 10vh;
+   background-color: #738290;
+}
+
+.imagem-projeto{
+    width: 90vw;
+    height: 70vh;
+   background-color: green;
+
+}
+
+.botao-ver-projeto{
+    width: 90vw;
+    height: 10vh;
+    background-color: #738290;
+
+}
+.botao-ver-projeto:hover{
+    background-color: #485665;
+}
+
+
+
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: #F4FFFD;
+}
+
+li{
+    padding-left: 5px;
+}
+
+/* Fontes */
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F4FFFD;
+  }
+  
+.madimi-one-regular-h1 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vh;
+    color: #F4FFFD;
+  }
+  
+.madimi-one-regular-h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vh;
+    color: #F4FFFD;
+  }
+
+  .madimi-one-regular-projeto {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F4FFFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+  }
+  
+  /* hover das fontes */
+
+.madimi-one-regular:hover{
+    color: black;
+}
+.madimi-one-regular-projeto:hover{
+    color: black;
+}
+
+
+/* Estilos padrão para todos os tamanhos de tela */
+
+/* Breakpoint para telas pequenas (por exemplo, smartphones) */
+@media only screen and (max-width: 767px) {
+    /* Estilos para telas pequenas aqui */
+}
+
+/* Breakpoint para telas médias (por exemplo, tablets em modo retrato) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para telas médias aqui */
+}
+
+/* Breakpoint para telas grandes (por exemplo, desktops) */
+@media only screen and (min-width: 992px) {
+    .projeto{
+        width: 40vw;
+        height: 50vh;
+        margin-top: 10vh;
+        margin-right: 5vw;
+        
+    }
+
+    .titulo-projeto{
+        width: 40vw;
+        height: 7vh;
+        
+    }
+    .imagem-projeto{
+        width: 40vw;
+        height: 36vh;
+
+    }
+
+    .botao-ver-projeto{
+        width: 40vw;
+        height: 7vh;
+    }
+    
+}
